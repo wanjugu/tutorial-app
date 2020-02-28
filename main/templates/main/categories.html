@@ -1,0 +1,21 @@
+{% extends "main/header.html" %}
+
+{% block content %}
+<!-- iterate through the tutorials -->
+<div class="row">
+	{% for cat in categories %}
+    <div class="col s12 m6">
+    	<a href="{{cat.category_slug}}",style="color:#000">
+      <div class="card hoverable">
+        <div class="card-content">
+          <span class="card-title">{{cat.tut_category}}</span>
+          <p>{{cat.category_summary}}</p>
+        
+        </div>
+       
+      </div>
+    </div>
+    {% endfor %}
+  </div>	
+{% endblock %}
+
