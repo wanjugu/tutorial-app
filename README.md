@@ -11,11 +11,11 @@ On windows give command the following command >> python manage.py runserver
 # creating the super-user
 1. On windows cmd run >> python manage.py shell  
 2. Run the following commands on the shell to create new user
->>> from django.contrib.auth.models import User
->>> user=User.objects.create_user('foo', password='bar')
->>> user.is_superuser=True
->>> user.is_staff=True
->>> user.save()
+- from django.contrib.auth.models import User
+- user=User.objects.create_user('foo', password='bar')
+- user.is_superuser=True
+- user.is_staff=True
+- user.save()
 
 # Login in as admin
 1. Access teh  Admin via link 127.0.0.1:8000/admin
