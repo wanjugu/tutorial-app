@@ -2,6 +2,12 @@
 This is website application built with Django python framework. 
 The app was writen as part of django learning process following https://pythonprogramming.net/django-web-development-python-tutorial/
 
+# About the App
+This is a sample tutorial app develop with django framework.
+We have used the following
+- marializecss.com for styling
+- Sqlite database
+
 # How to run the Project
 1. Git Clone the app
 2. Use command tool to run the application server. 
